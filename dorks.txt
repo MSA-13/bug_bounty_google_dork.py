@@ -89,3 +89,17 @@ site:*.at responsible disclosure
 site:*.be responsible disclosure
 site:*.au responsible disclosure
 site:*/security.txt "bounty"
+site:http://target.com ext:jsp
+site:http://target.com filetype:jsp
+site:http://target.com filetype:cfm
+site:http://target.com filetype:php
+site:http://target.com filetype:asp
+site:http://target.com inurl:.jsp
+site:http://target.com inurl:.do
+site:http://target.com inurl:.do -www -support
+site:http://target.com inurl:'&' -www -support -register
+site:http://target.com inurl:login
+site:http://target.com inurl:login -account -www -register
+site:http://target.com inurl:/user -account -www -register
+site:http://target.com title:Signup
+site:http://target.com title:admin
